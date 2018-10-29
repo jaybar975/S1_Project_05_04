@@ -13,3 +13,138 @@
    Supporting Files: 
 
 */
+/* This creates the html element with a margin of 0pixels, padding of 0 pixels, font family to EstrangeloEdessaRegular, and the font size to 20 pixels  */
+html {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'EstrangeloEdessaRegular';
+    font-size: 20px;
+}
+
+/* This creates the header element with a text align to center, background color to a brown ish color, and the padding to 15 pixels  */
+header {
+    text-align: center;
+    background-color: #4F3606;
+    padding: 15px;
+}
+
+/* This sets the main element to a display of grid and the grid template column to 1 fraction, 3 fraction, and 1 faction */
+main {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+/* This sets the ul element to a padding inline start of 0 pixels */
+ul {
+    padding-inline-start: 0px;
+}
+
+/* This sets the nav element and a id of vertical to a background color of a dark brown, the width to 50 pecent, padding bottom to 700 pixels, color to white, float to the left of the page, and the etxt align to the center */
+nav.vertical {
+    background-color: #2D1D00;
+    width: 50%;
+    padding-bottom: 700px;
+    color: white;
+    float: left;
+    text-align: center;
+}
+
+/*  This creates the nav, li, and a element to a text decoration of none, color to a loght yellow, and the font size to 100% */
+nav li a {
+    text-decoration: none;
+    color: #FFF1AA;
+    font-size: 100%;
+}
+
+/*  This sets the nav and ul element to a list style of none and the text align to center */
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+/* This sets the nav and li element with a pseudo class of hover and a the color to a light brown */
+nav li:hover {
+    color: #968061;
+}
+
+/* This creates the id class called divider to a padding top to 20 pixels */
+.divider {
+    padding-top: 20px;
+}
+
+/* This creates the aside element to a background color to a very dark brown, padding bottom to 700 pixels, the width to 50%, the margin left to 50%, the color to white, the float to the left of the website, and the text align to the center of the webpage */
+aside {
+    background-color: #2D1D00;
+    padding-bottom: 700px;
+    width: 50%;
+    margin-left: 50%;
+    color: white;
+    float: right;
+    text-align: center;
+
+}
+
+aside ul li {
+    padding: 20px;
+}
+
+aside h1 {
+    padding: 15px;
+    font-size: 150%;
+    text-decoration: underline;
+    color: #B6A96F;
+    letter-spacing: 5px;
+}
+
+.right li a {
+    color: #BCC;
+}
+
+.right .last {
+    border: none;
+}
+
+.left {
+    width: 12%;
+    text-align: center;
+}
+
+body {
+    background-color: #75551B;
+    margin: auto;
+}
+
+article {
+    display: block;
+    box-shadow: 4px 4px 4px black;
+    background-color: #182B4E;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 35px;
+    margin: 20px auto;
+    margin-top: 15px;
+    line-height: 1.5;
+    display: block;
+    padding: 20px;
+    color: #BCC;
+    text-shadow: 2px 1px 1px black;
+}
+
+article h1 {
+    font-size: 140%;
+    letter-spacing: 4px;
+    padding-bottom: 20px;
+    text-decoration: underline;
+    color: #B6A96F;
+    text-shadow: 3px 1px 1px black;
+}
+
+article ul {
+    list-style: none;
+}
+
+footer {
+    text-align: center;
+    background-color: #4E5D79;
+    clear: left;
+}
