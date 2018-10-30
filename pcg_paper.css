@@ -84,10 +84,12 @@ aside {
 
 }
 
+/* This cretes the aside ul and li element with a padding of 20 pixels */
 aside ul li {
     padding: 20px;
 }
 
+/* This creates the aside and heading 1 element with a padding of 15 pixels, font size is 150 percent, text decoration is set to underline, the color is a light orange, and finally the letter spacing is 5 pixels */
 aside h1 {
     padding: 15px;
     font-size: 150%;
@@ -96,24 +98,29 @@ aside h1 {
     letter-spacing: 5px;
 }
 
+/* This creates the id right li and a element to a color of a light blue */
 .right li a {
     color: #BCC;
 }
 
+/* This creates the id right and last with a border of none */
 .right .last {
     border: none;
 }
 
+/* This creates the id left to a width of 12 percent and the text align to center */
 .left {
     width: 12%;
     text-align: center;
 }
 
+/* This creates the body element to a background color of a dark brown and the margin is auto */
 body {
     background-color: #75551B;
     margin: auto;
 }
 
+/* This creates the article element to a display of block, box shadow to 4 pixels three times and the color black, background color is set to a dark blue, the text align is set to center, the border to 2 pixels solid and the color black, the border radius is set to 35 pixels, the margin is set to 20 pixels and the margin is set to auto, the margin top is set to 15 pixels, the line height is set to 1.5, the padding is set t 20 pixels, the color is a very very light blue, and finally the text shadow is set to 2 pixels, 1 pixel, 1 pixel, and the color black */
 article {
     display: block;
     box-shadow: 4px 4px 4px black;
@@ -124,12 +131,12 @@ article {
     margin: 20px auto;
     margin-top: 15px;
     line-height: 1.5;
-    display: block;
     padding: 20px;
     color: #BCC;
     text-shadow: 2px 1px 1px black;
 }
 
+/* This sets the article and heading 1 element sets the font size to 140 percent, the letter spacing is set to 4 pixels, the padding bottom is set to 20 pixels, the text decoration is set to underline, the color is set to a light orange, and the text shadow is set to 3 pixels 1 pixel 1 pixel and the color is set to black */
 article h1 {
     font-size: 140%;
     letter-spacing: 4px;
@@ -139,10 +146,12 @@ article h1 {
     text-shadow: 3px 1px 1px black;
 }
 
+/* This sets the article and ul element to a list style to none */
 article ul {
     list-style: none;
 }
 
+/* This sets the footer element to a text align of center, background color of a light blue and the clear is set to both */
 footer {
     text-align: center;
     background-color: #4E5D79;
